@@ -16,6 +16,7 @@ public class Order {
     //Getters
     public String getOrderId() {
         return orderId;
+
     }
     public String getCustomerId() {
         return customerId;
@@ -34,17 +35,21 @@ public class Order {
         private  double totalAmount;
 
         //Setters
-        public void setOrderId(String orderId) {
+        public Builder setOrderId(String orderId) {
             this.orderId = orderId;
+            return this;
         }
-        public void setCustomerId(String customerId) {
+        public Builder setCustomerId(String customerId) {
             this.customerId = customerId;
+            return this;
         }
-        public void setOrderDate(String orderDate) {
+        public Builder setOrderDate(String orderDate) {
             this.orderDate = orderDate;
+            return this;
         }
-        public void setTotalAmount(double totalAmount) {
+        public Builder setTotalAmount(double totalAmount) {
             this.totalAmount = totalAmount;
+            return this;
         }
 
         public Order build() {
