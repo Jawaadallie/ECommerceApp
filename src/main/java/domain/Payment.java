@@ -1,6 +1,6 @@
 /* Payment.java
    This is the domain class for Payment using the Builder pattern.
-   Author: Mogamad Jawaad Allie - 230671942
+   Author: Mogamad Jawaad Allie - 230472125
    Date: 25 March 2026
 */
 package domain;
