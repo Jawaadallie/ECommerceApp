@@ -10,7 +10,7 @@ import java.util.UUID;
 
 public class PaymentFactory {
     public static Payment createPayment(String orderId, double paymentAmount, String paymentDate, String paymentMethod) {
-        // Basic validation for student style
+        // Basic validation
         if (orderId == null || orderId.isEmpty() || paymentAmount <= 0) {
             return null;
         }
