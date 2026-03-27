@@ -1,5 +1,9 @@
 package factory;
-
+/*
+cardFactory.java
+Author:isheanesu chowurya 223182192
+date:26March 2026
+ */
 import domain.Card;
 
 public class CardFactory {
